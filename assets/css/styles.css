@@ -1,10 +1,25 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
  * {
      left: 0;
+     top: 0;
+     margin: 0;
+     padding: 0;
  }
 
+ :root {
+     --pink: pink;
+     --pinkD: #ee8fa0;
+     --white: #ffffff;
+     --black: black;
+     --gray: #eeeeee
+ }
+a:hover{
+    color: var(--pinkD);
+}
  .cl {
      clear: both;
      float: left;
@@ -13,14 +28,11 @@
  }
 
  .box {
-     position: absolute;
+
      width: 100%;
      height: 750px;
      overflow: hidden;
-     background-image:
-         /* linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), */
 
-         url('/assets/images/xv/xv2.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: 50% 0px !important;
@@ -31,12 +43,81 @@
      width: 90px;
  }
 
+
+ h1 {
+     font-size: 45px;
+ }
+
+ h2 {
+     font-size: 40px;
+ }
+
+ h3 {
+     font-size: 35px;
+ }
+
+ h4 {
+     font-size: 30px;
+ }
+
+ h5 {
+     font-size: 25px;
+ }
+ .colorIcon {
+    fill: green;
+  }
+
  .white {
-     color: white;
+     color: var(--white);
  }
 
  .pink {
-     color: pink;
+     color: var(--pink);
+ }
+ .pinkD {
+     color: var(--pinkD);
+ }
+
+ .arsenal-sc-regular {
+     font-family: "Arsenal SC", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .arsenal-sc-bold {
+     font-family: "Arsenal SC", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ .arsenal-sc-regular-italic {
+     font-family: "Arsenal SC", sans-serif;
+     font-weight: 400;
+     font-style: italic;
+ }
+
+ .arsenal-sc-bold-italic {
+     font-family: "Arsenal SC", sans-serif;
+     font-weight: 700;
+     font-style: italic;
+ }
+ .nborder{
+border: none;
+ }
+ .sombra {
+     border-radius: 8px;
+     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
+ }
+
+ .bd {
+     border-radius: 25px;
+ }
+
+ .imgCard {
+     width: 80%;
+     margin: auto;
+     height: 150px;
+     overflow: hidden;
  }
 
  .dancing {
@@ -44,6 +125,66 @@
      font-optical-sizing: auto;
      font-weight: 700;
      font-style: normal;
+ }
+
+ .lato-thin {
+     font-family: "Lato", sans-serif;
+     font-weight: 100;
+     font-style: normal;
+ }
+
+ .lato-light {
+     font-family: "Lato", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+ }
+
+ .lato-regular {
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .lato-bold {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ .lato-black {
+     font-family: "Lato", sans-serif;
+     font-weight: 900;
+     font-style: normal;
+ }
+
+ .lato-thin-italic {
+     font-family: "Lato", sans-serif;
+     font-weight: 100;
+     font-style: italic;
+ }
+
+ .lato-light-italic {
+     font-family: "Lato", sans-serif;
+     font-weight: 300;
+     font-style: italic;
+ }
+
+ .lato-regular-italic {
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     font-style: italic;
+ }
+
+ .lato-bold-italic {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: italic;
+ }
+
+ .lato-black-italic {
+     font-family: "Lato", sans-serif;
+     font-weight: 900;
+     font-style: italic;
  }
 
  .fsc {
@@ -89,6 +230,23 @@
 
  .fecha {
      position: relative;
-     color: white;
+     color: var(--white);
+     ;
      letter-spacing: 3px;
  }
+
+ .btn-primary{
+    background:var(--pink);
+    color:var(--white);
+    border: 1px solid var(--pinkD);
+}
+.btn-primary:hover{
+    border: 1px solid var(--pink);
+ 
+     background:var(--pinkD);
+
+ }
+
+
+
+ 
