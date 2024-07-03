@@ -17,9 +17,11 @@
      --black: black;
      --gray: #eeeeee
  }
-a:hover{
-    color: var(--pinkD);
-}
+
+ a:hover {
+     color: var(--pinkD);
+ }
+
  .cl {
      clear: both;
      float: left;
@@ -63,9 +65,10 @@ a:hover{
  h5 {
      font-size: 25px;
  }
+
  .colorIcon {
-    fill: green;
-  }
+     fill: green;
+ }
 
  .white {
      color: var(--white);
@@ -74,6 +77,7 @@ a:hover{
  .pink {
      color: var(--pink);
  }
+
  .pinkD {
      color: var(--pinkD);
  }
@@ -101,9 +105,11 @@ a:hover{
      font-weight: 700;
      font-style: italic;
  }
- .nborder{
-border: none;
+
+ .nborder {
+     border: none;
  }
+
  .sombra {
      border-radius: 8px;
      box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.35);
@@ -235,18 +241,23 @@ border: none;
      letter-spacing: 3px;
  }
 
- .btn-primary{
-    background:var(--pink);
-    color:var(--white);
-    border: 1px solid var(--pinkD);
-}
-.btn-primary:hover{
-    border: 1px solid var(--pink);
- 
-     background:var(--pinkD);
+ .btn-primary {
+     background: var(--pink);
+     color: var(--white);
+     border: 1px solid var(--pinkD);
+ }
+
+ .btn-primary:hover {
+     border: 1px solid var(--pink);
+
+     background: var(--pinkD);
 
  }
 
 
 
- 
+ .img-card {
+     width: 250px;
+     height: 250px;
+     margin-bottom: 25px;
+ }
